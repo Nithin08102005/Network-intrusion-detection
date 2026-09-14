@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data & Models (Keep structure, ignore large local cache)
+data/*.parquet
+data/*.csv
+!data/.gitkeep
+models/*.pkl
+!models/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
