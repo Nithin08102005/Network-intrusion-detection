@@ -16,7 +16,6 @@ Unlike conventional implementations that rely on hardcoded feature drops, this p
 * **Class Imbalance Strategy**: Leveraged cost-sensitive balanced class weighting to ensure robust detection on minority attack classes (e.g. Web Attacks) without injecting synthetic SMOTE artifacts into evaluation distributions.
 * **Interactive Deployment**: Includes a modern **Streamlit Web Application** (`app.py`) for real-time network packet inspection, simulated attack presets, and batch CSV telemetry audits.
 * **Dual Execution Environments**: Designed to run smoothly on local development machines via stratified sampling (under 15 seconds) and scale directly to the full **2.83 Million records** on Kaggle GPU/CPU.
-
 ---
 
 ## 📊 Benchmark Results
